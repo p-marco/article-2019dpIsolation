@@ -1,0 +1,35 @@
+---
+title: "Title here"
+subtitle: "An empirical study on noun phrases in non-native Italian"
+author: "Marco Petolicchio"
+institution: "Dept. of Romance Languages. Palacky University, Olomouc (CZ)"
+abstract: " Abstract\\par
+	\\textbf{Keywords:} one, two, three"
+site: bookdown::bookdown_site
+documentclass: scrartcl
+output:
+  word_document:
+    toc: yes
+  bookdown::gitbook: 
+    split_by: none
+    split_bibliography: false
+    config:
+      sharing: false
+  bookdown::pdf_book:
+    template: null
+    pandoc_args:
+    includes: 
+      in_header: latex/preamble.tex
+    latex_engine: xelatex
+    citation_package: natbib
+    keep_tex: yes
+classoption: [a4paper,twoside,12pt,chapterprefix=false,listof=flat]
+bibliography: [bibliography.bib]
+biblio-style: apa
+link-citations: yes
+github-repo: 
+description: ""
+always_allow_html: yes
+---
+
+# First commit

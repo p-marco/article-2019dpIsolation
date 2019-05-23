@@ -1,0 +1,3 @@
+#!/bin/bash
+cd ./article-2019dpIsolation
+Rscript -e "bookdown::render_book('index.Rmd', 'all')"
